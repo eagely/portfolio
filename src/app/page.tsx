@@ -7,8 +7,10 @@ export default function Home() {
             <main className={styles.main}>
                 <div className={styles.logo}>
                     <Image src="/logo.png" alt="Logo" width={256} height={256} />
-                    <div className={styles.caption}>eagely</div>
-                    <div className={styles.captionUrl}>.dev</div>
+                    <div className={styles.captionBox}>
+                        <div className={styles.caption}>eagely</div>
+                        <div className={styles.captionUrl}>.dev</div>
+                    </div>
                 </div>
                 <div className={styles.links}>
                     <a href="https://github.com/eagely" target="_blank" rel="noopener noreferrer">
