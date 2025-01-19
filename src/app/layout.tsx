@@ -4,6 +4,7 @@ import "./globals.css";
 
 const mapleMono = Fira_Code({
   display: "swap",
+  subsets: ["latin-ext"]
 });
 
 export const metadata: Metadata = {
